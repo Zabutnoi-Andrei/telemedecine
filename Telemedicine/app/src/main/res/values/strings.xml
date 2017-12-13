@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Telemedicine</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="btn_login">Login</string>
+    <string name="textView_welcome">Welcome</string>
+    <string name="textView_lorem">Lorem ipsum dolor sit amet, conse ctetur
+        adipiscing elit. Ut enim ad veni am, quis nostrud exercitation ullamco</string>
+    <string name="textView_urgent">URGENT</string>
+    <string name="textView_telemedicine">Telemedicine</string>
+</resources>
+
+
+
+
+
