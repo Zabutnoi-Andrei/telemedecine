@@ -7,6 +7,8 @@
         adipiscing elit. Ut enim ad veni am, quis nostrud exercitation ullamco</string>
     <string name="textView_urgent">URGENT</string>
     <string name="textView_telemedicine">Telemedicine</string>
+    <string name="textView_requestApproved">Your Request Has Been Approved</string>
+    <string name="textView_reqDetails">Request details</string>
 </resources>
 
 
