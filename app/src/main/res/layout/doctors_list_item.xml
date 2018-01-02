@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingBottom="12dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:id="@+id/doctor_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/doctor_avatar" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintLeft_toRightOf="@+id/doctor_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="First LastName" />
+
+    <ImageView
+        android:id="@+id/star_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintStart_toEndOf="@+id/name"
+        tools:layout_editor_absoluteY="9dp"
+        tools:src="@drawable/star_filled" />
+
+    <TextView
+        android:id="@+id/stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintStart_toEndOf="@+id/star_img"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="4.9" />
+
+    <TextView
+        android:id="@+id/doctor_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:text="Eye Specialist" />
+
+    <ImageView
+        android:id="@+id/location_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/adress"
+        tools:layout_editor_absoluteY="62dp"
+        tools:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_description"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="107dp"
+        tools:text="St. Bronxlyn 212" />
+
+
+</android.support.constraint.ConstraintLayout>
