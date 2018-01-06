@@ -9,6 +9,9 @@
     <string name="textView_telemedicine">Telemedicine</string>
     <string name="textView_requestApproved">Your Request Has Been Approved</string>
     <string name="textView_reqDetails">Request details</string>
+    <string name="telemedicine">Telemedicine</string>
+    <string name="email_adress">Email Adress</string>
+    <string name="password">Password</string>
 </resources>
 
 
