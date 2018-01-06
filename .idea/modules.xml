@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Repo.iml" filepath="$PROJECT_DIR$/Repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Repo\app\app.iml" filepath="D:\Repo\app\app.iml" />
-      <module fileurl="file://D:\Repo\telemedecine.iml" filepath="D:\Repo\telemedecine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telemedecine.iml" filepath="$PROJECT_DIR$/telemedecine.iml" />
     </modules>
   </component>
 </project>
