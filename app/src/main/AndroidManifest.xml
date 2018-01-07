@@ -12,35 +12,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-    <!-- Splash screen -->
-    <activity
-        android:name="com.example.zveri.telemedicine.SplashScreenActivity"
-        android:label="">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-    <!-- Main activity -->
-    <activity
-        android:name="com.example.zveri.telemedicine.MainActivity">
-    </activity>
+        <!-- Main activity -->
+        <activity android:name=".MainActivity" />
 
-	<!-- Login screen -->
-	<activity
-		android:name="com.example.zveri.telemedicine.LoginActivity">
-	</activity>
+        <!-- Login screen -->
+        <activity android:name=".LoginActivity" />
+		
+		<!-- Signup screen -->
+        <activity
+            android:name=".SignupActivity"
+            android:label="Register" />
+		
+		<!-- Home screen -->
+        <activity android:name=".HomeActivity" />
 
-	<!-- DoctorDetails screen -->
-	<activity 
-		android:name="com.example.zveri.telemedicine.DoctorDetailsActivity">
-	</activity>
+        <!-- DoctorDetails screen -->
+        <activity android:name=".DoctorDetailsActivity" />
 
-    <!-- DoctorList screen -->
-    <activity
-        android:name="com.example.zveri.telemedicine.DoctorListActivity">
-    </activity>
+        <!-- DoctorList screen -->
+        <activity android:name=".DoctorListActivity" />
 
         <!-- Signup screen -->
         <activity

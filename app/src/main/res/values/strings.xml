@@ -10,8 +10,33 @@
     <string name="textView_requestApproved">Your Request Has Been Approved</string>
     <string name="textView_reqDetails">Request details</string>
     <string name="telemedicine">Telemedicine</string>
-    <string name="email_adress">Email Adress</string>
+    <string name="email_adress">Email Address</string>
     <string name="password">Password</string>
+
+    <!--Strings for Output -->
+    <string name="output_name">Name</string>
+    <string name="output_desease">Desease</string>
+    <string name="output_location">Location</string>
+    <string name="output_description">Desciption (Optional)</string>
+    <string name="titleBar">Home</string>
+
+    <!--Strings for Input -->
+    <string name="input_yourName">Your Name</string>
+    <string name="input_yourDesease">What is your illness</string>
+    <string name="input_yourLocation">Where your location</string>
+    <string name="input_yourDescription">Describe Here</string>
+
+    <!--Strings for Button Description (contentDescription)-->
+    <string name="description_send_requst">Send request with Data on the Server</string>
+    <string name="description_very_urgent">By clicking on this button, your request will by processed
+faster</string>
+    <string name="description_home_button">Button that passes to home screen</string>
+    <string name="description_notification_button">Button that passes to notification screen</string>
+    <string name="description_add_button">Button that add anything</string>
+    <string name="description_schedule_button">Button that passes to schedule screen</string>
+    <string name="description_profile_button">Button that passes to profile screen</string>
+    <string name="very_urgent">VERY URGENT</string>
+
     <string name="your_full_name">Your Full Name</string>
     <string name="your_email">Your Email</string>
     <string name="birthday">dd/mm/yy</string>
