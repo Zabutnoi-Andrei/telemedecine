@@ -12,36 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-    <!-- Splash screen -->
-    <activity
-        android:name="com.example.zveri.telemedicine.SplashScreenActivity"
-        android:label="">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <!-- Main activity -->
-    <activity
-        android:name="com.example.zveri.telemedicine.MainActivity">
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-	<!-- Login screen -->
-	<activity
-		android:name="com.example.zveri.telemedicine.LoginActivity">
-	</activity>
+        <!-- Main activity -->
+        <activity android:name=".MainActivity" />
 
-	<!-- DoctorDetails screen -->
-	<activity 
-		android:name="com.example.zveri.telemedicine.DoctorDetailsActivity">
-	</activity>
+        <!-- Login screen -->
+        <activity android:name=".LoginActivity" />
 
-    <!-- DoctorList screen -->
-    <activity
-        android:name="com.example.zveri.telemedicine.DoctorListActivity">
-    </activity>
+        <!-- DoctorDetails screen -->
+        <activity android:name=".DoctorDetailsActivity" />
 
+        <!-- DoctorList screen -->
+        <activity android:name=".DoctorListActivity" />
+
+        <!-- Home screen -->
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>

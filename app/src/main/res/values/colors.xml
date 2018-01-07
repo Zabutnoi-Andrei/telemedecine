@@ -3,4 +3,7 @@
     <color name="colorPrimary">#08da5f</color>
     <color name="colorPrimaryDark">#08da5f</color>
     <color name="colorAccent">#08da5f</color>
+    <color name="strokeColor">#ced8dc</color>
+    <color name="greenColor">#08da5f</color>
+
 </resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.zveri.telemedicine.HomeActivity"
+    android:layout_alignParentLeft="true">
+
+
+    <TextView
+        android:id="@+id/person_Name"
+        tools:text="@string/output_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txt_output_Style"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="109dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+
+    <EditText
+        android:id="@+id/inputName"
+        android:hint="@string/input_yourName"
+        android:layout_width="345dp"
+        android:layout_height="23dp"
+        android:theme="@style/txt_input_Style"
+        android:inputType="textPersonName"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_Name"
+
+        android:background="@drawable/rectangle_input"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/person_Desease"
+        tools:text="@string/output_desease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txt_output_Style"
+
+        app:layout_constraintTop_toBottomOf="@id/inputName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/inputDesease"
+        android:hint="@string/input_yourDesease"
+        android:layout_width="345dp"
+        android:layout_height="25dp"
+        android:theme="@style/txt_input_Style"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_Desease"
+        android:layout_marginTop="9dp"
+
+        android:background="@drawable/rectangle_input"
+        android:inputType="textPersonName"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/person_Location"
+        tools:text="@string/output_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txt_output_Style"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputDesease"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/inputLocation"
+        android:hint="@string/input_yourLocation"
+        android:layout_width="344dp"
+        android:layout_height="24dp"
+        android:theme="@style/txt_input_Style"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_Location"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="16dp"
+
+        android:background="@drawable/rectangle_input"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/person_Description"
+        tools:text="@string/output_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txt_output_Style"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputLocation"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/inputDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_input_describe_here"
+
+        android:hint="@string/input_yourDescription"
+        android:inputType="textPersonName"
+        android:theme="@style/txt_input_Style"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_Description"
+        android:layout_marginLeft="16dp" />
+
+
+    <ImageButton
+        android:id="@+id/home_button_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/home_button"
+        android:contentDescription="@string/description_home_button"
+
+        android:layout_marginStart="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="472dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/notification_button_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/notification_button"
+        android:contentDescription="@string/description_notification_button"
+
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/home_button_image"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/strokeColor"
+        tools:layout_editor_absoluteY="472dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/view" />
+
+    <ImageButton
+        android:id="@+id/add_button_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/add_button"
+        android:contentDescription="@string/description_add_button"
+
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/notification_button_image"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <ImageButton
+        android:id="@+id/schedule_button_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/schedule_button"
+        android:contentDescription="@string/description_schedule_button"
+
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/add_button_image"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/profile_button_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/profile_button"
+        android:contentDescription="@string/description_profile_button"
+
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/schedule_button_image"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/btn_veryUrgent"
+        android:layout_width="203dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_urgent"
+        android:text="@string/very_urgent"
+        android:textColor="@color/greenColor"
+        app:layout_constraintBottom_toTopOf="@+id/inputName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btn_request"
+        android:layout_width="323dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_request"
+        android:lineSpacingExtra="8sp"
+        android:text="Request"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/inputDescription"
+        app:layout_constraintVertical_bias="0.439"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="30dp"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@id/request_button" />-->
+
+</android.support.constraint.ConstraintLayout>
