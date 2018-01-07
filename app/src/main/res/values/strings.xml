@@ -42,6 +42,9 @@ faster</string>
     <string name="birthday">dd/mm/yy</string>
     <string name="phone_number">Your Phone Number</string>
     <string name="location">Your Location</string>
+    <string name="user_name">Your User Name</string>
+    <string name="CP_password">Your Password</string>
+
 </resources>
 
 
