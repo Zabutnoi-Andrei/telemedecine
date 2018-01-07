@@ -13,6 +13,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RemoteApi {
     public static final String baseUrlString = "http://81.180.72.17/";
     private static IRemoteApi api;
+    /**
+     * TOKEN received from server on successful login. Save it to use in all future requests
+     */
+    private static String TOKEN = null;
 
     static {
         Gson gson = new GsonBuilder()
@@ -25,8 +29,15 @@ public class RemoteApi {
                 .build();
         api = retrofit.create(IRemoteApi.class);
     }
-
     public static IRemoteApi getApi() {
         return api;
+    }
+
+    public static String getTOKEN() {
+        return TOKEN;
+    }
+
+    public static void setTOKEN(String TOKEN) {
+        RemoteApi.TOKEN = TOKEN;
     }
 }
