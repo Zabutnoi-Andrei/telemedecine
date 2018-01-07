@@ -42,6 +42,12 @@
         <!-- DoctorList screen -->
         <activity android:name=".DoctorListActivity" />
 
+        <!-- Signup screen -->
+        <activity
+            android:name="com.example.zveri.telemedicine.SignupActivity"
+            android:label="Register">
+        </activity>
+
     </application>
 
 </manifest>
