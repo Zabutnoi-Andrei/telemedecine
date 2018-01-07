@@ -18,7 +18,6 @@
             android:label="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -28,6 +27,14 @@
 
         <!-- Login screen -->
         <activity android:name=".LoginActivity" />
+		
+		<!-- Signup screen -->
+        <activity
+            android:name=".SignupActivity"
+            android:label="Register" />
+		
+		<!-- Home screen -->
+        <activity android:name=".HomeActivity" />
 
         <!-- DoctorDetails screen -->
         <activity android:name=".DoctorDetailsActivity" />
@@ -35,8 +42,6 @@
         <!-- DoctorList screen -->
         <activity android:name=".DoctorListActivity" />
 
-        <!-- Home screen -->
-        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>

@@ -13,7 +13,6 @@
     <string name="email_adress">Email Address</string>
     <string name="password">Password</string>
 
-
     <!--Strings for Output -->
     <string name="output_name">Name</string>
     <string name="output_desease">Desease</string>
@@ -37,6 +36,13 @@ faster</string>
     <string name="description_schedule_button">Button that passes to schedule screen</string>
     <string name="description_profile_button">Button that passes to profile screen</string>
     <string name="very_urgent">VERY URGENT</string>
+
+    <string name="your_full_name">Your Full Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="birthday">dd/mm/yy</string>
+    <string name="phone_number">Your Phone Number</string>
+    <string name="location">Your Location</string>
+
 </resources>
 
 
