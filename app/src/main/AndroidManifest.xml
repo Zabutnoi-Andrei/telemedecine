@@ -13,9 +13,7 @@
         android:theme="@style/AppTheme">
 
         <!-- Splash screen -->
-        <activity
-            android:name=".SplashScreenActivity"
-            android:label="">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -23,16 +21,14 @@
         </activity>
 
         <!-- Main activity -->
-        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeScreenActivity" />
 
         <!-- Login screen -->
         <activity android:name=".LoginActivity" />
 		
 		<!-- Signup screen -->
-        <activity
-            android:name=".SignupActivity"
-            android:label="Register" />
-		
+        <activity android:name=".SignupActivity" />
+
 		<!-- Home screen -->
         <activity android:name=".HomeActivity" />
 
@@ -43,8 +39,7 @@
         <activity android:name=".DoctorListActivity" />
 
         <!-- CompleteSignUp screen -->
-        <activity android:name=".CompleteRegistrationActivity" />
-
+        <activity android:name=".CompleteSignupActivity" />
 
     </application>
 

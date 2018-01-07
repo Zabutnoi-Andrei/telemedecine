@@ -1,12 +1,13 @@
 package com.example.zveri.telemedicine.api.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by deDwarf on 12/16/2017.
  */
 
-public class UserRegBody {
+public class UserRegBody implements Serializable{
     private String fullName;
     private Date birthday;
     private String email;
@@ -26,6 +27,9 @@ public class UserRegBody {
         this.username = username;
         this.password = password;
         this.base64photo = base64photo;
+    }
+
+    public UserRegBody() {
     }
 
     public String getFullName() {
